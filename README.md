@@ -2,7 +2,7 @@
 
 Welcome!
 
-These summaries have helped me a lot to better understand the theoretical principles of computer science.
+These summaries helped me a lot to better understand the theoretical principles of computer science.
 
 I have also developed a console app that shows the functions of the algorithms.
 

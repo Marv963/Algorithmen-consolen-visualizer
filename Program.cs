@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-//beste Sortieralgorithmus raussuchen,
-//hash funktion einbinden
-//boyer-moore einbinden
 
 class Algorithmen
 {
@@ -30,7 +27,6 @@ class Algorithmen
             "23\tRabin-Karp-Matching\n\n30\tRelationen\n\n");
         int Nr = Int32.Parse(Console.ReadLine());
         Console.Clear();
-        //int Nr = 23;
         Console.ForegroundColor = ConsoleColor.Red;
         switch (Nr)
         {
@@ -99,8 +95,6 @@ class Algorithmen
             SuchText = Console.ReadLine();
             Console.WriteLine("das suchende Wort eingeben (Pattern)");
             pattern = Console.ReadLine();
-            //SuchText = "852467384194";
-            //pattern = "841";
 
         }
         else if (Nr > 29 && Nr < 40)
@@ -504,7 +498,6 @@ class Algorithmen
     }
     List<double> mergeSort(List<double> A)
     {
-        //print(A); Console.WriteLine();
         if (A.Count <= 1) return A;
 
         int pivot = (A.Count / 2);
